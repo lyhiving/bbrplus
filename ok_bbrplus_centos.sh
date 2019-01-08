@@ -20,7 +20,7 @@ if [[ -e /appex/bin/serverSpeeder.sh ]]; then
 	rm -f appex.sh
 fi
 echo -e "下载内核..."
-wget https://github.com/cx9208/bbrplus/raw/master/centos/x86_64/kernel-4.14.89-1.x86_64.rpm
+wget https://github.com/lyhiving/bbrplus/raw/master/centos/x86_64/kernel-4.14.89-1.x86_64.rpm
 echo -e "安装内核..."
 yum install -y kernel-4.14.89-1.x86_64.rpm
 
